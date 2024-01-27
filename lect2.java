@@ -41,8 +41,18 @@ public class lect2 {
 
 //INPUT
 Scanner sc= new Scanner(System.in);
-String n = sc.nextLine();
+String n = sc.nextLine();//using "nextLine" we can take whole sentence or a line as input 
 System.out.println(n);
+
+//IDENTIFIERS AND LITERAL
+int aa =45;
+//here 45 is called as giteral and "a" is called as identifier
+//to write 234million we usually put comma to separate digits .
+//but in java we will put underscore
+int e = 234_000_000;//234 million 
+System.out.println(e);
+
+
     }
     
 }
